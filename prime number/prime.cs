@@ -12,7 +12,7 @@ namespace prime_number
             Console.Write("Type any number to see if it is a prime number: ");
 
             String numberInput = Console.ReadLine();
-            byte count = 0;
+            int count = 0;
 
 
             int[] basePrimes = new int[4];
@@ -53,7 +53,12 @@ namespace prime_number
                 foreach (int basePrime in basePrimes)
                 {
                     Console.WriteLine(basePrimes[count]);
-                    count += 1;
+                    
+                    if (count > basePrimes.GetLength)
+                    {
+                        break;
+                    }
+                    count = +1;
                 }
             
             
