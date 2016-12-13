@@ -4,3 +4,9 @@ c:\users\web-pc\Desktop\prime number\bin\Debug\prime number.pdb
 c:\users\web-pc\Desktop\prime number\obj\Debug\prime number.csprojResolveAssemblyReference.cache
 c:\users\web-pc\Desktop\prime number\obj\Debug\prime number.exe
 c:\users\web-pc\Desktop\prime number\obj\Debug\prime number.pdb
+C:\Users\web-pc\Documents\github\prime-number-c-sharp\prime number\bin\Debug\prime number.exe.config
+C:\Users\web-pc\Documents\github\prime-number-c-sharp\prime number\obj\Debug\prime number.exe
+C:\Users\web-pc\Documents\github\prime-number-c-sharp\prime number\obj\Debug\prime number.pdb
+C:\Users\web-pc\Documents\github\prime-number-c-sharp\prime number\obj\Debug\prime number.csprojResolveAssemblyReference.cache
+C:\Users\web-pc\Documents\github\prime-number-c-sharp\prime number\bin\Debug\prime number.exe
+C:\Users\web-pc\Documents\github\prime-number-c-sharp\prime number\bin\Debug\prime number.pdb

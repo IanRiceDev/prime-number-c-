@@ -11,7 +11,7 @@ namespace prime_number
             
             Console.Write("Type any number to see if it is a prime number: ");
 
-            int numberInput = Convert.ToInt32(Console.ReadLine());
+            String numberInput = Console.ReadLine();
             byte count = 0;
 
 
@@ -27,30 +27,37 @@ namespace prime_number
 
             int listCount = 0;
             int numberOutput;
-/*
-            try
-            {
-             
-            }
-            catch(FormatException)
-            {
-                Console.WriteLine("That is not a number");
-            }
+            bool test = true;
 
-*/
+            while (true)
+            { 
+                try
+                {
+                    Convert.ToInt32(numberInput);
+                }
+                catch(FormatException)
+                {
+                    Console.WriteLine("That is not a number");
+                    break;
+                    
+                }
+
+                numberOutput = Convert.ToInt32(numberInput);
 
 
-            
+                Console.WriteLine(numberOutput);
 
+
+
+
+                foreach (int basePrime in basePrimes)
+                {
+                    Console.WriteLine(basePrimes[count]);
+                    count += 1;
+                }
             
-            foreach(int basePrime in basePrimes)
-            {
-                Console.WriteLine(basePrimes[count]);
-                count += 1;
-            }
             
-            
-           
+           }
             Console.ReadLine();
 
 
