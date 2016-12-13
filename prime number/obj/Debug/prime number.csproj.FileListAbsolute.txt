@@ -1,0 +1,6 @@
+c:\users\web-pc\Desktop\prime number\bin\Debug\prime number.exe.config
+c:\users\web-pc\Desktop\prime number\bin\Debug\prime number.exe
+c:\users\web-pc\Desktop\prime number\bin\Debug\prime number.pdb
+c:\users\web-pc\Desktop\prime number\obj\Debug\prime number.csprojResolveAssemblyReference.cache
+c:\users\web-pc\Desktop\prime number\obj\Debug\prime number.exe
+c:\users\web-pc\Desktop\prime number\obj\Debug\prime number.pdb
