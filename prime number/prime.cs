@@ -5,15 +5,25 @@ namespace prime_number
 {
     class Program
     {
-   
+       
+
+
+
+
+        private static int numberOutput;
+
+
         static void Main(string[] args)
         {
-            
+
+            while (true)
+            {
+
             Console.Write("Type any number to see if it is a prime number: ");
 
-            String numberInput = Console.ReadLine();
-            int count = 0;
+            string numberInput = Console.ReadLine();
 
+            
 
             int[] basePrimes = new int[4];
             basePrimes[0] = 2;
@@ -24,59 +34,30 @@ namespace prime_number
             int[] notPrimes = new int[2];
             notPrimes[0] = 0;
             notPrimes[1] = 1;
-
-            int listCount = 0;
-            int numberOutput;
-            bool test = true;
-
-            while (true)
-            { 
-                try
-                {
-                    Convert.ToInt32(numberInput);
-                }
-                catch(FormatException)
-                {
-                    Console.WriteLine("That is not a number");
-                    break;
-                    
-                }
-
+            
+            
+            try
+            {
                 numberOutput = Convert.ToInt32(numberInput);
+                numberOutput = numberOutput % 2;
+               
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("that is not a number");
+                    break;
+            }
 
+            Console.WriteLine(numberOutput);
+           
 
-                Console.WriteLine(numberOutput);
-
-
-
-
-                foreach (int basePrime in basePrimes)
-                {
-                    Console.WriteLine(basePrimes[count]);
-                    
-                    if (count > basePrimes.GetLength)
-                    {
-                        break;
-                    }
-                    count = +1;
-                }
-            
-            
-           }
+         
+         
+      
+           
+            }
             Console.ReadLine();
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
+   
     }
 }
